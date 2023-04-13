@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-MediumItalic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: white;
+    background-color: black;
+    
+
+    padding: 15px; 
+    width: 100%;
+    position: fixed;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+    
+        .nav-list {
+            font-family: 'Roboto', sans-serif;
+
+            list-style: none;
+            display: flex;
+            gap:10px;
+    
+            li {
+                padding: 15px;
+    
+                &:hover {
+                    color: red;
+                }
+    
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

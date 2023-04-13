@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../font/Roboto-MediumItalic.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: white;
+  background-color: black;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav .nav-list {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.header nav .nav-list li {
+  padding: 15px;
+}
+.header nav .nav-list li:hover {
+  color: red;
+}
+.header nav .nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
